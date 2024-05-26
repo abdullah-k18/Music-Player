@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peace🕊️</title>
+    <link rel="shortcut icon" href="headphones.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <button class="hdbtn">
+                <i class="fi fi-rr-arrow-small-left"></i>
+            </button>
+            <h3 class="p-now">
+                Playing Now
+            </h3>
+            <button class="hdbtn">
+                <i class="fi fi-rr-list"></i>
+            </button>
+        </header>
+        <div class="player">
+            <div class="img-area">
+                <img src="images/1.jpg" alt="">
+            </div>
+            <div class="song-details">
+                <h1 class="name">
+                    Elastic Heart
+                </h1>
+                <h3 class="artist">
+                    Sia
+                </h3>
+            </div>
+            <div class="audioC">
+                <div class="song-timer">
+                    <span class="current-time">0:00</span>
+                    <span class="max-duration">0:00</span>
+                </div>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <audio id="main-audio" src="songs/1.mp3"></audio>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <button class="btnC" id="prev">
+                    <i class="fi fi-sr-rewind"></i>
+                </button>
+                <button class="play-pause btnC">
+                    <i class="fi fi-sr-play"></i>
+                </button>
+                <button class="btnC" id="next">
+                    <i class="fi fi-sr-forward"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="music-list.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
